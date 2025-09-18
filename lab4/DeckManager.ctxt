@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=DeckManager
+comment1.params=
+comment1.target=DeckManager()
+comment1.text=\r\n\ Constructor\ for\ DeckManager\r\n
+comment2.params=
+comment2.target=void\ loadDeck()
+comment2.text=\r\n\ Loads\ all\ 52\ playing\ card\ icons\ in\ the\ card\ list.\r\n\ Assumes\ standard\ naming\ convention\ "clubs_2.png",\ "hearts_A.png",\ etc\r\n
+comment3.params=
+comment3.target=java.util.List\ getDeck()
+comment3.text=\r\n\ Returns\ copy\ of\ the\ current\ deck.\r\n\ \r\n\ @return\ returns\ List\ of\ paying\ card\ images\r\n
+comment4.params=
+comment4.target=void\ shuffleDeck()
+comment4.text=\r\n\ Shuffles\ the\ deck.\r\n\r\n
+numComments=5

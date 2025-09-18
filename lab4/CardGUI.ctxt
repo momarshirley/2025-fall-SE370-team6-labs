@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CardGUI
+comment1.params=
+comment1.target=CardGUI()
+comment1.text=\r\n\ Constructor\ for\ the\ lass\ CardGUI.\r\n
+comment2.params=
+comment2.target=void\ displayCards()
+comment2.text=\r\n\ Displays\ playing\ cards\ on\ the\ panel.\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ Creates\ and\ shows\ the\ Playing\ Cards\ GUI,\r\n\r\n
+numComments=4
