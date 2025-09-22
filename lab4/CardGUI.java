@@ -44,6 +44,9 @@ public class CardGUI extends JFrame
         
         // places button at bottom of panel
         add(shuffleBtn, BorderLayout.SOUTH);
+
+        // sizes window
+        pack();
         
         setVisible(true);
     }
@@ -59,7 +62,7 @@ public class CardGUI extends JFrame
         // formats cards and adds to the panel
         for (ImageIcon card : cards)
         {
-            Image sized = card.getImage().getScaledInstance(100, 300, Image.SCALE_SMOOTH);
+            Image sized = card.getImage().getScaledInstance(100, 150, Image.SCALE_SMOOTH);
             JLabel label = new JLabel(new ImageIcon(sized));
             cardsPanel.add(label);
         }
